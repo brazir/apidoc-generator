@@ -697,7 +697,7 @@ ${headers.rubyModuleConstants.indent(2)}
 
     sb.append("  end\n")
 
-    sb.append("  def to_json")
+    sb.append("  def to_json(opts = {}")
     sb.append("    JSON.dump(to_hash)")
     sb.append("  end\n")
 
